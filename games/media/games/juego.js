@@ -30,20 +30,41 @@ undum.game.slideUpSpeed = 500
 undum.game.situations = {
     start: new undum.SimpleSituation(
        "<h1>Comienzo del día</h1>\
-       <p>Hoy es un gran día para ti, hoy podrás ver el espectaculo que tanto llevas esperando...</p>\
+       <p>Hoy es un gran día para ti, hoy podrás ver el espectaculo de Harry Potter que tanto llevas esperando...</p>\
        <p>La alarma acaba de sonar son las 9:01 am y el espectaculo comienza a las 12:30.</p>\
        <p>Debes escoger la manera de empezar el día, puedes <a href='dormir'>Volver a dormir</a>,\
        <a href='desayuno'> bajar a desayunar</a> o bien\
-       <a href='llamar'>llamar a tu acompañante.</a> Escoge sabiamente tu elección... </p>"
+       <a href='llamar'>llamar a tu acompañante.</a> Elige sabiamente tu elección... </p>"
+    ),
+
+    dormir: new undum.SimpleSituation(
+        "<p> Decidiste dormirte, ha sido una mala decisión ya que no volviste a configurar la alarma\
+         tu acompañante también se quedó dormido ya que el día anterior os dormisteis tarde por estar jugando a League of Legends,\
+         son las 13:06 pm por lo que el espectaculo de Harry Potter comenzó hace un buen rato...</p>"
     ),
 
     desayuno: new undum.SimpleSituation(
         "<img src='./media/img/desayuno_imagen.jpg' class='float_right' width='250' height='250'>\
-        <p>Escogiste bajar a desayunar, realmente ha sido una buena opción, ya que te espera un largo día.</p>\
-        <p> Una vez acabado en desayuno mirás la hora y son las 10 de las mañana, tienes aún tiempo de sobra, ya que en una hora llegas al lugar\
-        como aún te sobra tiempo puedes <a href='llamar2'> llamar a tu acompañante</a> o bien <a href='tele'> ver la tele</a> </p>"
+         <p>Escogiste bajar a desayunar, realmente ha sido una buena opción, ya que te espera un largo día.</p>\
+         <p> Una vez acabado en desayuno mirás la hora y son las 10 de las mañana, tienes aún tiempo de sobra, ya que en una hora llegas al lugar\
+         como aún te sobra tiempo puedes <a href='llamar2'> llamar a tu acompañante</a> o bien <a href='tele'> ver la tele</a> </p>"
     ),
 
+    tele: new undum.SimpleSituation(
+        "<p>Decidiste ver la tele por un rato, justo encontraste un programa que te resultaba demasiado interesante.</p>\
+         <p> Después de un rato miras la hora y son las 11:45am, ¡El espectaculo comienza a las 12:30pm! por lo que vas tarde.</p>\
+         <p> tu acompañante ni si quiera te contacto contigo en toda la mañana, por lo que deberías <a href='llamar3'>preguntarle si está listo</a></p>"
+    ),
+
+    llamar3: new undum.SimpleSituation(
+      "<p> Llamas a tu acomañante, el cual tiene las entradas, y resulta que tiene el telefono en silencio y se ha quedado dormido\
+       ,en este caso decides <a href='despertar2'>ir a su casa a despertarle</a> ,tardarás aproximadamente 20 minutos en llegar</p>"
+    ),
+
+    despertar2: new undum.SimpleSituation(
+        "<p>Una vez llegas a su casa tarda un rato en recibirte, por lo que acaban siendo las 12:20, lamentablemente has perdido la oportunidad de\
+         ver el espectaculo de harry potter y también perdiste el dinero de las entradas <\p>"
+    )
 
 };
 
