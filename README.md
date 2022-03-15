@@ -36,4 +36,23 @@ Alumno: David Rodríguez Muro
 
 * Enlace Tablero Trello: https://trello.com/b/two6qZaD/practica2
     
-*    
+
+* Capturas Trello:
+
+   En esta parte explicaré la utilización de la herramienta Trello durante toda la práctica y se adjuntarán las capturas necesarias 
+
+   En primer lugar observamos el tablero inicial con todas las actividades que debemos realizar durante el transcurso de la práctica:
+
+  ![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/trello_1.png)
+  ![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/trello_2.png)
+
+  Seguidamente tras comenzar el desarrollo del proyecto podemos observar el avance en las tareas
+
+  ![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/trello_3.png)
+  ![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/trello_4.png)
+  ![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/trello_5.png)
+
+  Finalmente cuando están casi todas las tareas realizadas adjunto la última de las capturas
+
+  ![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/trello_6.png)
+
