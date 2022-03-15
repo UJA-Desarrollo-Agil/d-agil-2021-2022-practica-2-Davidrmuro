@@ -31,10 +31,15 @@ undum.game.situations = {
     start: new undum.SimpleSituation(
        "<h1>Comienzo del día</h1>\
        <p>Hoy es un gran día para ti, hoy podrás ver el espectaculo de Harry Potter que tanto llevas esperando...</p>\
-       <p>La alarma acaba de sonar son las 9:01 am y el espectaculo comienza a las 12:30.</p>\
+       <p>La alarma acaba de sonar son las 9:00 am y el espectaculo comienza a las 12:30.</p>\
        <p>Debes escoger la manera de empezar el día, puedes <a href='dormir'>Volver a dormir</a>,\
        <a href='desayuno'> bajar a desayunar</a> o bien\
        <a href='llamar'>llamar a tu acompañante.</a> Elige sabiamente tu elección... </p>"
+    ),
+
+    llamar: new undum.SimpleSituation(
+      "<p> Llamaste a tu acompañante, pero no te cogío el telefono ya que aún sigue dormido, no le das mucha importancia, ya que aún es pronto \
+       vuelves a plantearte ambas opciones, puedes <a href='desayuno'> bajar a desayunar</a> o bien <a href='dormir'>volver a dormir</a> </p>"
     ),
 
     dormir: new undum.SimpleSituation(
@@ -45,9 +50,46 @@ undum.game.situations = {
 
     desayuno: new undum.SimpleSituation(
         "<img src='./media/img/desayuno_imagen.jpg' class='float_right' width='250' height='250'>\
-         <p>Escogiste bajar a desayunar, realmente ha sido una buena opción, ya que te espera un largo día.</p>\
+         <p> Escogiste bajar a desayunar, realmente ha sido una buena opción, ya que te espera un largo día.</p>\
          <p> Una vez acabado en desayuno mirás la hora y son las 10 de las mañana, tienes aún tiempo de sobra, ya que en una hora llegas al lugar\
          como aún te sobra tiempo puedes <a href='llamar2'> llamar a tu acompañante</a> o bien <a href='tele'> ver la tele</a> </p>"
+    ),
+
+    llamar2: new undum.SimpleSituation(
+      "<p>Trás acabar el desayuno escoges llamar a tu acompañante y observas que no recibe la llamada, ya que tiene el\
+       movil en silencio y se ha quedado dormido, el tiene las entradas, por lo que deberás <a href='despertar'>ir a su casa a despertarle</a>\
+       son las 10 de la mañana y tardas 20 minutos en llegar a su casa, por lo que vas bien de hora.</p>"
+    ),
+
+    despertar: new undum.SimpleSituation(
+        "<p> Una vez llegas a casa de tu acompañante tarda un rato en recibirte, alfinal acaban siendo las 11:30 am por lo que prácticamente\
+          el espectaculo empieza en una hora, una vez podeis poner rumbo hacia el espectaculo tenéis dos opciones <a href='bus'> intentar coger el bus</a>\
+          o bien <a href='taxi'> intentar pedir un taxi para ir más rápido. </a> </p>"
+    ),
+
+    bus: new undum.SimpleSituation(
+      "<p> Escogisteis esperar al bus, lamentablemente llevaba un gran retraso debido al atasco ocasionado por la huelga de los alumnos que suspendieron  \
+        física y aquí acaba tu viaje... </p>"
+    ),
+
+    taxi: new undum.SimpleSituation(
+        "<p> Escogisteis llamar a un taxi y llegó a las 11:55, en aproximadamente 20 minutos llegais el sitio del espectaculo, por suerte llegais con tiempo de sobra \
+         para poder pasar aparte de la entrada el taquillero os pone una pequeña <a href='prueba'>prueba.</a> </p>"
+    ),
+
+    prueba: new undum.SimpleSituation(
+        "<p> La prueba es bastante sencilla, si no eres un muggle claro... De los siguientes hechizos debeís escoger cual se útiliza para hacer volar los objetos. \
+        Cuentas con las siguientes opciones: <a href='error'> abracadabra pata de cabra, </a> <a href='acierto'> wingardium leviosa, </a> <a href='error'> lumos máxima </a> o <a href='error'> bombarda </a> </p>"
+    ),
+
+    error: new undum.SimpleSituation(
+        "<p> Parece que eres un muggle, aunque puede que simplemente te hayas equivocado de opción... <a href='prueba'> pulsa aquí para volver a intentarlo</a> </p>"
+    ),
+
+    acierto: new undum.SimpleSituation(
+      "<p> ¡Correcto! ya puedes pasar a ver el espectaculo. </p>\
+       <p> Una vez que ha concluido y te lo has pasado en grande llega la hora de volver a casa, por lo que vuelves con tu acompañante y aquí acaba tu historia.</p>"
+
     ),
 
     tele: new undum.SimpleSituation(
