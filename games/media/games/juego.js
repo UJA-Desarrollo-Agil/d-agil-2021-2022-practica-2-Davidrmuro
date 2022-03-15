@@ -30,8 +30,8 @@ undum.game.slideUpSpeed = 500
 undum.game.situations = {
     start: new undum.SimpleSituation(
        "<h1>Comienzo del día</h1>\
-       <p>Hoy es un gran día para ti, hoy podrás ver el espectaculo de Harry Potter que tanto llevas esperando...</p>\
-       <p>La alarma acaba de sonar son las 9:00 am y el espectaculo comienza a las 12:30.</p>\
+       <p>Hoy es un gran día para ti, hoy podrás ver el espectáculo de Harry Potter que tanto llevas esperando...</p>\
+       <p>La alarma acaba de sonar son las 9:00 am y el espectáculo comienza a las 12:30.</p>\
        <p>Debes escoger la manera de empezar el día, puedes <a href='dormir'>Volver a dormir</a>,\
        <a href='desayuno'> bajar a desayunar</a> o bien\
        <a href='llamar'>llamar a tu acompañante.</a> Elige sabiamente tu elección... </p>"
@@ -46,7 +46,7 @@ undum.game.situations = {
         "<img src='./media/img/reloj.jpg' class='float_right' width='250' height='250'>\
         <p> Decidiste dormirte, ha sido una mala decisión ya que no volviste a configurar la alarma\
          tu acompañante también se quedó dormido ya que el día anterior os dormisteis tarde por estar jugando a League of Legends,\
-         son las 13:06 pm por lo que el espectaculo de Harry Potter comenzó hace un buen rato...</p>"
+         son las 13:06 pm por lo que el espectáculo de Harry Potter comenzó hace un buen rato...</p>"
     ),
 
     desayuno: new undum.SimpleSituation(
@@ -64,7 +64,7 @@ undum.game.situations = {
 
     despertar: new undum.SimpleSituation(
         "<p> Una vez llegas a casa de tu acompañante tarda un rato en recibirte, alfinal acaban siendo las 11:30 am por lo que prácticamente\
-          el espectaculo empieza en una hora, una vez podeis poner rumbo hacia el espectaculo tenéis dos opciones <a href='bus'> intentar coger el bus</a>\
+          el espectáculo empieza en una hora, una vez podeis poner rumbo hacia el espectáculo tenéis dos opciones <a href='bus'> intentar coger el bus</a>\
           o bien <a href='taxi'> intentar pedir un taxi para ir más rápido. </a> </p>"
     ),
 
@@ -76,7 +76,7 @@ undum.game.situations = {
 
     taxi: new undum.SimpleSituation(
         "<img src='./media/img/taxi.jpg' class='float_right' width='250' height='250'>\
-        <p> Escogisteis llamar a un taxi y llegó a las 11:55, en aproximadamente 20 minutos llegais el sitio del espectaculo, por suerte llegais con tiempo de sobra \
+        <p> Escogisteis llamar a un taxi y llegó a las 11:55, en aproximadamente 20 minutos llegais el sitio del espectáculo, por suerte llegais con tiempo de sobra \
          para poder pasar aparte de la entrada el taquillero os pone una pequeña <a href='prueba'>prueba.</a> </p>"
     ),
 
@@ -90,14 +90,14 @@ undum.game.situations = {
     ),
 
     acierto: new undum.SimpleSituation(
-      "<p> ¡Correcto! ya puedes pasar a ver el espectaculo. </p>\
+      "<p> ¡Correcto! ya puedes pasar a ver el espectáculo. </p>\
        <p> Una vez que ha concluido y te lo has pasado en grande llega la hora de volver a casa, por lo que vuelves con tu acompañante y aquí acaba tu historia.</p>"
 
     ),
 
     tele: new undum.SimpleSituation(
         "<p>Decidiste ver la tele por un rato, justo encontraste un programa que te resultaba demasiado interesante.</p>\
-         <p> Después de un rato miras la hora y son las 11:45am, ¡El espectaculo comienza a las 12:30pm! por lo que vas tarde.</p>\
+         <p> Después de un rato miras la hora y son las 11:45am, ¡El espectáculo comienza a las 12:30pm! por lo que vas tarde.</p>\
          <p> tu acompañante ni si quiera te contacto contigo en toda la mañana, por lo que deberías <a href='llamar3'>preguntarle si está listo</a></p>"
     ),
 
@@ -108,7 +108,7 @@ undum.game.situations = {
 
     despertar2: new undum.SimpleSituation(
         "<p>Una vez llegas a su casa tarda un rato en recibirte, por lo que acaban siendo las 12:20, lamentablemente has perdido la oportunidad de\
-         ver el espectaculo de harry potter y también perdiste el dinero de las entradas <\p>"
+         ver el espectáculo de harry potter y también perdiste el dinero de las entradas, aquí acaba tu historia. <\p>"
     )
 
 };
