@@ -56,3 +56,21 @@ Alumno: David Rodríguez Muro
 
   ![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/trello_6.png)
 
+
+
+
+
+* Capturas Telegram:
+
+   Aparte de la utilización de Trello se ha usado el bot de Telegram de GitHub, el cual nos sirve para ver rápidamente y de forma instantanea todos los commits realizados a nuestro proyecto, se adjuntas tres capturas de telegram donde se pueden observar, la vinculación del bot con GitHub y todos los commits realizados:
+
+  ![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/T_1.jpeg)
+  ![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/T_2.jpeg)
+  ![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/T_3.jpeg)
+
+
+
+
+## 5.- Conclusión final
+
+  El desarrollo de este proyecto me ha servido de ayuda para comprender el framework Undum y aprender a desarrollar de manera más eficaz el uso de herramientas como Telegram y Trello, de forma que he aprendido a utilizarlas para poder planificarme de forma correcta.
