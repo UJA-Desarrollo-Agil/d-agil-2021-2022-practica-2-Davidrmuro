@@ -4,7 +4,7 @@ Grado en Ingeniería Informática - E.P.S. Jaén - Universidad de Jaén.
 
 Curso 2021/2022
 
-<img src='./media/img/logos - UJA (horizontal).jpg' class='float_right' width='250' height='250'>
+<img src='UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/media/img/uja.jpg' class='float_right' width='250' height='250'>
 
 Profesor de la asignatura: Víctor Manuel Rivas Santos.
 Alumno: David Rodríguez Muro
