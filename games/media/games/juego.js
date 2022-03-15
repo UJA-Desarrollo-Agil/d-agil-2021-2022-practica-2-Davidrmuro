@@ -43,7 +43,8 @@ undum.game.situations = {
     ),
 
     dormir: new undum.SimpleSituation(
-        "<p> Decidiste dormirte, ha sido una mala decisión ya que no volviste a configurar la alarma\
+        "<img src='./media/img/reloj.jpg' class='float_right' width='250' height='250'>\
+        <p> Decidiste dormirte, ha sido una mala decisión ya que no volviste a configurar la alarma\
          tu acompañante también se quedó dormido ya que el día anterior os dormisteis tarde por estar jugando a League of Legends,\
          son las 13:06 pm por lo que el espectaculo de Harry Potter comenzó hace un buen rato...</p>"
     ),
@@ -68,12 +69,14 @@ undum.game.situations = {
     ),
 
     bus: new undum.SimpleSituation(
-      "<p> Escogisteis esperar al bus, lamentablemente llevaba un gran retraso debido al atasco ocasionado por la huelga de los alumnos que suspendieron  \
+      "<img src='./media/img/bus.jpg' class='float_right' width='250' height='250'>\
+      <p> Escogisteis esperar al bus, lamentablemente llevaba un gran retraso debido al atasco ocasionado por la huelga de los alumnos que suspendieron  \
         física y aquí acaba tu viaje... </p>"
     ),
 
     taxi: new undum.SimpleSituation(
-        "<p> Escogisteis llamar a un taxi y llegó a las 11:55, en aproximadamente 20 minutos llegais el sitio del espectaculo, por suerte llegais con tiempo de sobra \
+        "<img src='./media/img/taxi.jpg' class='float_right' width='250' height='250'>\
+        <p> Escogisteis llamar a un taxi y llegó a las 11:55, en aproximadamente 20 minutos llegais el sitio del espectaculo, por suerte llegais con tiempo de sobra \
          para poder pasar aparte de la entrada el taquillero os pone una pequeña <a href='prueba'>prueba.</a> </p>"
     ),
 
