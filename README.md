@@ -4,7 +4,7 @@ Grado en Ingeniería Informática - E.P.S. Jaén - Universidad de Jaén.
 
 Curso 2021/2022
 
-![Image tex](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/uja.jpg)
+<img src="https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-Davidrmuro/blob/master/games/media/img/uja.jpg" width="50%">
 
 
 Profesor de la asignatura: Víctor Manuel Rivas Santos.
